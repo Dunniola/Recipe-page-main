@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 0.9rem;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color:  hsl(30, 54%, 90%);
+    color:hsl(30, 10%, 34%);
+    font-family: 'Outfit';
+   
+}
+.main-container{
+    max-width: 40rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+h1{
+    margin: 1rem 0;
+    color: hsl(24, 5%, 18%);
+    font-family: 'Young Serif';
+}
+.short-note{
+    margin: 1rem 0;
+}
+h2,h3,h4,h5{
+    margin: 1rem 0;
+    color:hsl(14, 45%, 36%);
+    font-family: 'Young Serif';
+    
+}
+h2{
+    color:  hsl(332, 51%, 32%);
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Outfit';
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+h5{
+    font-size: 1.5rem;
+}
+.prep-time{
+   
+   background-color:hsl(330, 100%, 98%);
+   height: 10rem;
+   padding: 0.3rem 0;
+    
+}
+.prep-time li{
+    margin-left: 1.5rem;
+}
+.bold{
+    color:hsl(30, 10%, 34%);
+    font-weight: 700;
+}
+ol{
+  margin-left: 1rem
+    
+}
+ul{
+    margin-left: 1rem 
+    
+}
+ul li, ol li{
+    margin-bottom: 0.7rem;
+     padding-left: 1rem; 
+   
+    
+}
+ul li::marker, ol li::marker {
+    color:hsl(14, 45%, 36%);
+    position: relative;
+  
+}
+hr{ 
+    margin-top: 1.5rem;
+   border-color:hsl(330, 100%, 98%);
+}
+.Nutrition p{
+    margin-bottom: 1rem;
+}
+.energy{
+   margin-left: 2rem;
+
+
+}
+.value{
+    align-items: center;
+    float: right;
+    color:hsl(14, 45%, 36%) ;
+    margin-right: 15rem;
+    font-weight: 700;
+}
+.attribution { 
+    font-size: 11px;
+     text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+@media(max-width:960px){
+    .main-container{
+        max-width: 20rem;
+        padding: 1.5rem;
+
+    }
+    .prep-time{
+        padding-right: 1rem;
+    }
+    .value{
+        margin-right: 4rem;
+    }
+}
